@@ -13,7 +13,7 @@ int main()
     {
         printf("negatif");
     }
-    else{
+    else if (N==0){
         printf("nol");
     }
     
