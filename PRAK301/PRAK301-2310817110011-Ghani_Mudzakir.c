@@ -1,14 +1,18 @@
-a,b = map(int, input().split())
+#include <stdio.h>
 
-if (a<b):
-    print(a,b)
-    
-elif (a>b):
-    print(b,a)
-            
-        
+int main()
+{
+    int a, b;
+    scanf("%d %d", &a, &b);
 
-    
+    if (a < b)
+    {
+        printf("%d %d", a, b);
+    }
+    else
+    {
+        printf("%d %d", b, a);
+    }
 
-
-
+    return 0;
+}
